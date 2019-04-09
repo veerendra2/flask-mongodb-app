@@ -1,0 +1,60 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: mongodb
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: http_api
+      tier: backend
+  replicas: 1
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: http_api
+        tier: backend
+    spec:
+      containers:
+      - name: mongodb
+        image: ImageName
+        volumeMounts:
+        - name: emptydir1
+          mountPath: /data/db
+        env:
+        - name: MONGO_INITDB_ROOT_USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: mongosecret
+              key: username
+        - name: MONGO_INITDB_ROOT_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mongosecret
+              key: password
+        ports:
+        - name: mongodb
+          containerPort: 27017
+      volumes:
+      - name: emptydir1
+        emptyDir: {}
+      imagePullSecrets:
+      - name: regcred
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongodb-service
+  namespace: default
+spec:
+  type: ClusterIP
+  ports:
+    - port: 27017
+      targetPort: 27017
+      protocol: TCP
+  selector:
+      app: http_api
+      tier: backend

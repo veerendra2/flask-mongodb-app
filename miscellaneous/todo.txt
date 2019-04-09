@@ -1,0 +1,19 @@
+DONE Create unique Indexes on "name"(Avoid checking duplicate in your code)
+DONE Strip Objects
+DONE DB Connection fail giving no error
+DONE Create .ini files
+DONE run.py deploys app
+DONE Build flask as server
+DONE App should run under apache2
+SKIPPED Remove redunte code
+SKIPPED HTTPS Endpoint
+SKIPPED Prometheus Metric Expose
+
+Tests
+======
+DONE create_POST
+DONE list_GET
+DONE get_GET
+DONE remove_DELETE
+DONE update_PUT FOUND ONE BUG - FIXED NEED REBUILD
+DONE query_GET - FIXED BUG

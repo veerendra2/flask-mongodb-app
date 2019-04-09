@@ -1,0 +1,1278 @@
+[
+  {
+    "name": "Mckinney&&",
+    "data": [
+      {
+        "id": 4608,
+        "app_name": "cupidatat",
+        "isActive": true
+      },
+      {
+        "id": 2678,
+        "app_name": "tempor",
+        "isActive": true
+      },
+      {
+        "id": 4114,
+        "app_name": "adipisicing",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Nanette",
+    "data": [
+      {
+        "id": 2687,
+        "app_name": "officia",
+        "isActive": false
+      },
+      {
+        "id": 4956,
+        "app_name": "sit",
+        "isActive": true
+      },
+      {
+        "id": 3875,
+        "app_name": "esse",
+        "isActive": true
+      }
+    ]
+  },
+    {
+    "name": "Nanette",
+    "data": [
+      {
+        "id": 2687,
+        "app_name": "officia",
+        "isActive": false
+      },
+      {
+        "id": 4956,
+        "app_name": "sit",
+        "isActive": true
+      },
+      {
+        "id": 3875,
+        "app_name": "esse",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Katy",
+    "data": [
+      {
+        "id": 1776,
+        "app_name": "cillum",
+        "isActive": false
+      },
+      {
+        "id": 554,
+        "app_name": "velit",
+        "isActive": false
+      },
+      {
+        "id": 2711,
+        "app_name": "culpa",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Lucinda_",
+    "data": [
+      {
+        "id": 261,
+        "app_name": "nulla",
+        "isActive": true
+      },
+      {
+        "id": 1590,
+        "app_name": "non",
+        "isActive": true
+      },
+      {
+        "id": 4149,
+        "app_name": "amet",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Jeannette@# ",
+    "data": [
+      {
+        "id": 3312,
+        "app_name": "laborum",
+        "isActive": false
+      },
+      {
+        "id": 528,
+        "app_name": "ullamco",
+        "isActive": true
+      },
+      {
+        "id": 2521,
+        "app_name": "Lorem",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Valencia Test",
+    "data": [
+      {
+        "id": 2749,
+        "app_name": "mollit",
+        "isActive": true
+      },
+      {
+        "id": 1787,
+        "app_name": "sint",
+        "isActive": true
+      },
+      {
+        "id": 883,
+        "app_name": "occaecat",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Hess",
+    "data": [
+      {
+        "id": 119,
+        "app_name": "voluptate",
+        "isActive": true
+      },
+      {
+        "id": 4933,
+        "app_name": "ut",
+        "isActive": true
+      },
+      {
+        "id": 3205,
+        "app_name": "incididunt",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "||Hutchinson ^^sdf",
+    "data": [
+      {
+        "id": 2274,
+        "app_name": "Lorem",
+        "isActive": true
+      },
+      {
+        "id": 4025,
+        "app_name": "sint",
+        "isActive": false
+      },
+      {
+        "id": 3715,
+        "app_name": "pariatur",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Casey",
+    "data": [
+      {
+        "id": 1412,
+        "app_name": "adipisicing",
+        "isActive": false
+      },
+      {
+        "id": 819,
+        "app_name": "laborum",
+        "isActive": true
+      },
+      {
+        "id": 1200,
+        "app_name": "velit",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Helene",
+    "data": {
+        "id": 3384,
+        "app_name": "sunt",
+        "isActive": true
+      }
+  },
+  {
+    "name": "%%%Shelby df",
+    "data": [
+      {
+        "id": 1716,
+        "app_name": "nulla",
+        "isActive": true
+      },
+      {
+        "id": 2132,
+        "app_name": "magna",
+        "isActive": false
+      },
+      {
+        "id": 2256,
+        "app_name": "ea",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Helen",
+    "data": [
+      {
+        "id": 1120,
+        "app_name": "Lorem",
+        "isActive": true
+      },
+      {
+        "id": 341,
+        "app_name": "sunt",
+        "isActive": false
+      },
+      {
+        "id": 4852,
+        "app_name": "ex",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Lucy",
+    "data": [
+      {
+        "id": 3770,
+        "app_name": "aliquip",
+        "isActive": true
+      },
+      {
+        "id": 4834,
+        "app_name": "duis",
+        "isActive": true
+      },
+      {
+        "id": 4387,
+        "app_name": "non",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Gallagher",
+    "data": [
+      {
+        "id": 130,
+        "app_name": "magna",
+        "isActive": true
+      },
+      {
+        "id": 632,
+        "app_name": "magna",
+        "isActive": false
+      },
+      {
+        "id": 679,
+        "app_name": "duis",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Gates",
+    "data": [
+      {
+        "id": 2805,
+        "app_name": "ipsum",
+        "isActive": true
+      },
+      {
+        "id": 2064,
+        "app_name": "ipsum",
+        "isActive": false
+      },
+      {
+        "id": 1588,
+        "app_name": "ut",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Bond",
+    "data": [
+      {
+        "id": 4379,
+        "app_name": "sit",
+        "isActive": true
+      },
+      {
+        "id": 1516,
+        "app_name": "ad",
+        "isActive": true
+      },
+      {
+        "id": 3092,
+        "app_name": "Lorem",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Nora",
+    "data": [
+      {
+        "id": 3070,
+        "app_name": "sunt",
+        "isActive": false
+      },
+      {
+        "id": 4954,
+        "app_name": "irure",
+        "isActive": false
+      },
+      {
+        "id": 3541,
+        "app_name": "velit",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Burns",
+    "data": [
+      {
+        "id": 1177,
+        "app_name": "duis",
+        "isActive": true
+      },
+      {
+        "id": 2462,
+        "app_name": "ipsum",
+        "isActive": false
+      },
+      {
+        "id": 463,
+        "app_name": "reprehenderit",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Johnson",
+    "data": [
+      {
+        "id": 1668,
+        "app_name": "nostrud",
+        "isActive": true
+      },
+      {
+        "id": 1576,
+        "app_name": "do",
+        "isActive": false
+      },
+      {
+        "id": 3109,
+        "app_name": "irure",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Bush",
+    "data": [
+      {
+        "id": 3373,
+        "app_name": "anim",
+        "isActive": false
+      },
+      {
+        "id": 4185,
+        "app_name": "nulla",
+        "isActive": true
+      },
+      {
+        "id": 1845,
+        "app_name": "ad",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Danielle",
+    "data": [
+      {
+        "id": 4770,
+        "app_name": "consectetur",
+        "isActive": true
+      },
+      {
+        "id": 208,
+        "app_name": "sint",
+        "isActive": false
+      },
+      {
+        "id": 1307,
+        "app_name": "laborum",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Hazel",
+    "data": [
+      {
+        "id": 3018,
+        "app_name": "Lorem",
+        "isActive": false
+      },
+      {
+        "id": 1779,
+        "app_name": "dolore",
+        "isActive": false
+      },
+      {
+        "id": 3601,
+        "app_name": "enim",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Lindsey",
+    "data": {
+        "id": 1927,
+        "app_name": "quis",
+        "isActive": true
+      }
+  },
+  {
+    "name": "Merle",
+    "data": [
+      {
+        "id": 4351,
+        "app_name": "do",
+        "isActive": false
+      },
+      {
+        "id": 222,
+        "app_name": "quis",
+        "isActive": true
+      },
+      {
+        "id": 732,
+        "app_name": "mollit",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Ramirez",
+    "data": [
+      {
+        "id": 3916,
+        "app_name": "excepteur",
+        "isActive": true
+      },
+      {
+        "id": 1235,
+        "app_name": "anim",
+        "isActive": true
+      },
+      {
+        "id": 4703,
+        "app_name": "nostrud",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Morrow",
+    "data": [
+      {
+        "id": 136,
+        "app_name": "enim",
+        "isActive": false
+      },
+      {
+        "id": 4658,
+        "app_name": "aliqua",
+        "isActive": false
+      },
+      {
+        "id": 3103,
+        "app_name": "enim",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Summer",
+    "data": [
+      {
+        "id": 1282,
+        "app_name": "elit",
+        "isActive": false
+      },
+      {
+        "id": 3583,
+        "app_name": "do",
+        "isActive": true
+      },
+      {
+        "id": 3997,
+        "app_name": "deserunt",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Pickett",
+    "data": [
+      {
+        "id": 803,
+        "app_name": "aliqua",
+        "isActive": true
+      },
+      {
+        "id": 577,
+        "app_name": "incididunt",
+        "isActive": false
+      },
+      {
+        "id": 3500,
+        "app_name": "occaecat",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Conley",
+    "data": [
+      {
+        "id": 3793,
+        "app_name": "commodo",
+        "isActive": true
+      },
+      {
+        "id": 2286,
+        "app_name": "dolor",
+        "isActive": false
+      },
+      {
+        "id": 3032,
+        "app_name": "aliquip",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Connie",
+    "data": [
+      {
+        "id": 3472,
+        "app_name": "excepteur",
+        "isActive": true
+      },
+      {
+        "id": 643,
+        "app_name": "cupidatat",
+        "isActive": false
+      },
+      {
+        "id": 130,
+        "app_name": "eiusmod",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Tameka",
+    "data": [
+      {
+        "id": 4985,
+        "app_name": "elit",
+        "isActive": true
+      },
+      {
+        "id": 2974,
+        "app_name": "adipisicing",
+        "isActive": false
+      },
+      {
+        "id": 2835,
+        "app_name": "esse",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Liz",
+    "data": [
+      {
+        "id": 497,
+        "app_name": "consectetur",
+        "isActive": false
+      },
+      {
+        "id": 4153,
+        "app_name": "dolor",
+        "isActive": true
+      },
+      {
+        "id": 1887,
+        "app_name": "veniam",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Hamilton",
+    "data": [
+      {
+        "id": 2506,
+        "app_name": "dolor",
+        "isActive": true
+      },
+      {
+        "id": 3959,
+        "app_name": "incididunt",
+        "isActive": false
+      },
+      {
+        "id": 3330,
+        "app_name": "non",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Teri",
+    "data": [
+      {
+        "id": 1609,
+        "app_name": "dolor",
+        "isActive": false
+      },
+      {
+        "id": 1102,
+        "app_name": "et",
+        "isActive": false
+      },
+      {
+        "id": 421,
+        "app_name": "laborum",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Monroe",
+    "data": [
+      {
+        "id": 1048,
+        "app_name": "mollit",
+        "isActive": false
+      },
+      {
+        "id": 3921,
+        "app_name": "quis",
+        "isActive": false
+      },
+      {
+        "id": 2439,
+        "app_name": "pariatur",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Roslyn",
+    "data": [
+      {
+        "id": 1528,
+        "app_name": "sunt",
+        "isActive": false
+      },
+      {
+        "id": 3977,
+        "app_name": "et",
+        "isActive": true
+      },
+      {
+        "id": 2295,
+        "app_name": "sunt",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Oneal",
+    "data": [
+      {
+        "id": 2409,
+        "app_name": "duis",
+        "isActive": false
+      },
+      {
+        "id": 3478,
+        "app_name": "pariatur",
+        "isActive": true
+      },
+      {
+        "id": 3933,
+        "app_name": "et",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "John",
+    "data": [
+      {
+        "id": 3594,
+        "app_name": "consectetur",
+        "isActive": false
+      },
+      {
+        "id": 2548,
+        "app_name": "labore",
+        "isActive": true
+      },
+      {
+        "id": 1172,
+        "app_name": "tempor",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Gayle",
+    "data": [
+      {
+        "id": 3617,
+        "app_name": "consequat",
+        "isActive": false
+      },
+      {
+        "id": 3111,
+        "app_name": "qui",
+        "isActive": false
+      },
+      {
+        "id": 2974,
+        "app_name": "irure",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Mcintyre",
+    "data": [
+      {
+        "id": 1130,
+        "app_name": "anim",
+        "isActive": true
+      },
+      {
+        "id": 3935,
+        "app_name": "consequat",
+        "isActive": true
+      },
+      {
+        "id": 1052,
+        "app_name": "culpa",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Vinson",
+    "data": [
+      {
+        "id": 3288,
+        "app_name": "labore",
+        "isActive": false
+      },
+      {
+        "id": 2874,
+        "app_name": "dolor",
+        "isActive": false
+      },
+      {
+        "id": 1046,
+        "app_name": "deserunt",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Hayden",
+    "data": [
+      {
+        "id": 480,
+        "app_name": "labore",
+        "isActive": false
+      },
+      {
+        "id": 686,
+        "app_name": "proident",
+        "isActive": false
+      },
+      {
+        "id": 234,
+        "app_name": "culpa",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Eliza",
+    "data": [
+      {
+        "id": 2918,
+        "app_name": "ut",
+        "isActive": true
+      },
+      {
+        "id": 4304,
+        "app_name": "enim",
+        "isActive": false
+      },
+      {
+        "id": 4993,
+        "app_name": "deserunt",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Kari",
+    "data": [
+      {
+        "id": 532,
+        "app_name": "qui",
+        "isActive": true
+      },
+      {
+        "id": 4798,
+        "app_name": "dolor",
+        "isActive": true
+      },
+      {
+        "id": 2985,
+        "app_name": "officia",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Sherry",
+    "data": [
+      {
+        "id": 2373,
+        "app_name": "sunt",
+        "isActive": false
+      },
+      {
+        "id": 2723,
+        "app_name": "ad",
+        "isActive": false
+      },
+      {
+        "id": 666,
+        "app_name": "incididunt",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Tamera",
+    "data": [
+      {
+        "id": 4317,
+        "app_name": "commodo",
+        "isActive": false
+      },
+      {
+        "id": 3762,
+        "app_name": "eu",
+        "isActive": true
+      },
+      {
+        "id": 3690,
+        "app_name": "aute",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Betsy",
+    "data": [
+      {
+        "id": 4655,
+        "app_name": "consectetur",
+        "isActive": true
+      },
+      {
+        "id": 4397,
+        "app_name": "duis",
+        "isActive": false
+      },
+      {
+        "id": 4725,
+        "app_name": "nisi",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Pauline",
+    "data": [
+      {
+        "id": 274,
+        "app_name": "mollit",
+        "isActive": true
+      },
+      {
+        "id": 4256,
+        "app_name": "dolor",
+        "isActive": true
+      },
+      {
+        "id": 3255,
+        "app_name": "fugiat",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Summers",
+    "data": [
+      {
+        "id": 3089,
+        "app_name": "occaecat",
+        "isActive": true
+      },
+      {
+        "id": 3537,
+        "app_name": "non",
+        "isActive": true
+      },
+      {
+        "id": 1874,
+        "app_name": "occaecat",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Booker",
+    "data": [
+      {
+        "id": 4508,
+        "app_name": "ipsum",
+        "isActive": true
+      },
+      {
+        "id": 2086,
+        "app_name": "ipsum",
+        "isActive": true
+      },
+      {
+        "id": 2193,
+        "app_name": "quis",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Bennett",
+    "data": [
+      {
+        "id": 3373,
+        "app_name": "do",
+        "isActive": false
+      },
+      {
+        "id": 2018,
+        "app_name": "pariatur",
+        "isActive": false
+      },
+      {
+        "id": 4409,
+        "app_name": "consectetur",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Henderson",
+    "data": [
+      {
+        "id": 3152,
+        "app_name": "aute",
+        "isActive": true
+      },
+      {
+        "id": 967,
+        "app_name": "ut",
+        "isActive": false
+      },
+      {
+        "id": 1837,
+        "app_name": "est",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Sloan",
+    "data": [
+      {
+        "id": 422,
+        "app_name": "amet",
+        "isActive": true
+      },
+      {
+        "id": 1396,
+        "app_name": "proident",
+        "isActive": false
+      },
+      {
+        "id": 3301,
+        "app_name": "cillum",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Hubbard",
+    "data": [
+      {
+        "id": 356,
+        "app_name": "sunt",
+        "isActive": false
+      },
+      {
+        "id": 2845,
+        "app_name": "pariatur",
+        "isActive": true
+      },
+      {
+        "id": 4183,
+        "app_name": "non",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Noel",
+    "data": [
+      {
+        "id": 3993,
+        "app_name": "duis",
+        "isActive": false
+      },
+      {
+        "id": 4292,
+        "app_name": "sit",
+        "isActive": true
+      },
+      {
+        "id": 3307,
+        "app_name": "dolore",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Mason",
+    "data": [
+      {
+        "id": 736,
+        "app_name": "exercitation",
+        "isActive": true
+      },
+      {
+        "id": 615,
+        "app_name": "commodo",
+        "isActive": false
+      },
+      {
+        "id": 4038,
+        "app_name": "velit",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Mona",
+    "data": [
+      {
+        "id": 3243,
+        "app_name": "aliquip",
+        "isActive": false
+      },
+      {
+        "id": 364,
+        "app_name": "exercitation",
+        "isActive": true
+      },
+      {
+        "id": 2974,
+        "app_name": "id",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Gwendolyn",
+    "data": [
+      {
+        "id": 3887,
+        "app_name": "sint",
+        "isActive": true
+      },
+      {
+        "id": 1037,
+        "app_name": "aliquip",
+        "isActive": true
+      },
+      {
+        "id": 3773,
+        "app_name": "ea",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Faith",
+    "data": [
+      {
+        "id": 4841,
+        "app_name": "commodo",
+        "isActive": false
+      },
+      {
+        "id": 432,
+        "app_name": "laborum",
+        "isActive": false
+      },
+      {
+        "id": 3821,
+        "app_name": "est",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Chandra",
+    "data": [
+      {
+        "id": 4081,
+        "app_name": "est",
+        "isActive": true
+      },
+      {
+        "id": 2271,
+        "app_name": "mollit",
+        "isActive": true
+      },
+      {
+        "id": 442,
+        "app_name": "do",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Amparo",
+    "data": [
+      {
+        "id": 2743,
+        "app_name": "excepteur",
+        "isActive": true
+      },
+      {
+        "id": 2563,
+        "app_name": "incididunt",
+        "isActive": true
+      },
+      {
+        "id": 382,
+        "app_name": "anim",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "name": "Jean",
+    "data": [
+      {
+        "id": 4752,
+        "app_name": "mollit",
+        "isActive": false
+      },
+      {
+        "id": 1290,
+        "app_name": "dolore",
+        "isActive": false
+      },
+      {
+        "id": 2280,
+        "app_name": "fugiat",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Lacey",
+    "data": [
+      {
+        "id": 3529,
+        "app_name": "laborum",
+        "isActive": false
+      },
+      {
+        "id": 962,
+        "app_name": "fugiat",
+        "isActive": false
+      },
+      {
+        "id": 4231,
+        "app_name": "dolore",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "name": "Lacey",
+    "data": [
+      {
+        "id": 3529,
+        "app_name": "laborum",
+        "isActive": false
+      },
+      {
+        "id": 962,
+        "app_name": "fugiat",
+        "isActive": false
+      },
+      {
+        "id": 4231,
+        "app_name": "dolore",
+        "isActive": false
+      }
+    ]
+  }
+]

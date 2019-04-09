@@ -1,0 +1,50 @@
+Prometheus - https://pypi.org/project/prometheus-flask-exporter/
+
+Example REST API Site : https://reqres.in/
+Random JSON Generator: https://www.json-generator.com/
+APP Internal Return Codes
+==========================
+https://stackoverflow.com/questions/50362555/usernotfound-could-not-find-user-adminautomation
+
+Nested Query
+=============
+db.config.find({'name':'sample_config'},{'data': {$elemMatch: {'first_name': 'George'}} })
+https://docs.mongodb.com/manual/reference/operator/query/elemMatch/
+
+
+MongoDB Shell CMDs(as JavaScript)
+=====================
+https://docs.mongodb.com/manual/tutorial/write-scripts-for-the-mongo-shell/
+https://docs.mongodb.com/manual/reference/program/mongo/#bin.mongo
+
+Delete Docs in a collection
+=============================
+db.users.deleteOne( { status: "D" } )
+db.users.deleteMany({ status : "A" })
+https://docs.mongodb.com/v3.2/tutorial/remove-documents/
+
+Indexing
+=========
+db.config.createIndex({ "name": 1 }, { unique: true })
+https://docs.mongodb.com/manual/core/index-unique/
+
+List Indexes
+============
+db.mycollection.getIndexes()
+
+Drop Indexes
+=============
+db.mycollection.dropIndex("name")
+https://docs.mongodb.com/manual/reference/method/db.collection.dropIndex/
+
+Insert Recods
+==============
+db.inventory.insertOne(
+   { item: "canvas", qty: 100, tags: ["cotton"], size: { h: 28, w: 35.5, uom: "cm" } }
+)
+https://docs.mongodb.com/manual/tutorial/insert-documents/
+
+
+sudo docker run -it -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=sigma MONGO_INITDB_ROOT_PASSWORD=Phief3me -e mymongodb
+
+kubectl create secret docker-registry regcred --docker-server=https://quay.io --docker-username=veeru553 --docker-password=Qwerty@123 --docker-email=jemamo@tempcloud.info

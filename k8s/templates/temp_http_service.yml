@@ -1,0 +1,58 @@
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: http-api
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: http_api
+      tier: frontend
+  replicas: 1
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: http_api
+        tier: frontend
+    spec:
+      containers:
+      - name: http_api
+        image: ImageName
+        env:
+        - name: SERVE_PORT
+          value: "80"
+        - name: MONGO_INITDB_ROOT_USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: mongosecret
+              key: username
+        - name: MONGO_INITDB_ROOT_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mongosecret
+              key: password
+        ports:
+        - name: http
+          containerPort: 80
+      imagePullSecrets:
+      - name: regcred
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: http-service
+  namespace: default
+spec:
+  type: NodePort
+  ports:
+    - nodePort: 32242
+      port: 80
+      targetPort: 80
+      protocol: TCP
+  selector:
+      app: http_api
+      tier: frontend
