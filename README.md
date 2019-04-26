@@ -9,7 +9,7 @@ _Heads-up before you use/look into the code_:warning:
 * _I didn't know anything about MonogoDB or Flask framework at time I started the project._
 * _I'm not a web devloper._
 
-### Delopy in Kubernetes
+### Delopy on Kubernetes
 You can use ready made K8s spec file in [k8s-ready-spec-files](https://github.com/veerendra2/python-flask-mongodb-app/tree/master/k8s-ready-spec-files) directory which I pushed the docker images to my quay.io account.(Modify spec files if you need)
 ```
 $ git clone https://github.com/veerendra2/python-flask-mongodb-app.git
@@ -106,12 +106,14 @@ Our goal is to deploy application on Kubernetes cluster. Before that, we should 
 
 <img src="https://raw.githubusercontent.com/veerendra2/python-flask-mongodb-app/master/images/web_server.png" width="500" height="200" />
 
-## Building Docker images
+### Building Docker images
 Before deploying our application on kubernetes, we need to build docker images and push docker image to hosting repository. Since we already identified frontend and backend, we can build a  docker image for frontend contains Apache webserver + flask application (HTTP API) and another for mongoDB. We will use quay.io to store our docker images (private repo). 
  
-## Deployment on Kubernetes
+### Deployment on Kubernetes
 Once docker image push to registry is complete. We can deploy application on K8s by using deployment manifest files that I provided along with this doc.
 1.	Since we are going to deploy on “minikube” which is only for development. We are not using PV, PVC for MongoDB (PV and PVC are highly recommended in production). I have defined “EmptyDir” config which persistence of data is lifetime of pod.
 2.	As we can see in manifest files, we are mounting/injecting configuration via “secrets”/environmental variables. 
 
 <img src="https://raw.githubusercontent.com/veerendra2/python-flask-mongodb-app/master/images/k8s_deployment.PNG" width="500" height="200" />
+
+_*Check [`tests`](https://github.com/veerendra2/python-flask-mongodb-app/tree/master/tests) directory for more info._
