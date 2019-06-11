@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: quay.io/veeru553/mongodb23232:latest
+        image: quay.io/veerendra2/flask_http_service:latest
         volumeMounts:
         - name: emptydir1
           mountPath: /data/db

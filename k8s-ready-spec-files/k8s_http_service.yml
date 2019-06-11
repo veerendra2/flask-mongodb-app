@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: http_api
-        image: quay.io/veeru553/http_service2323:latest
+        image: quay.io/veerendra2/mongodb_backend:latest
         env:
         - name: SERVE_PORT
           value: "80"

@@ -10,7 +10,7 @@ _Heads-up before you use/look into the code_:warning:
 * _I'm not a web devloper._
 
 ### Delopy on Kubernetes
-You can use ready made K8s spec file in [k8s-ready-spec-files](https://github.com/veerendra2/python-flask-mongodb-app/tree/master/k8s-ready-spec-files) directory which I pushed the docker images to my quay.io account.(Modify spec files if you need)
+You can use ready made K8s spec file in [k8s-ready-spec-files](https://github.com/veerendra2/python-flask-mongodb-app/tree/master/k8s-ready-spec-files) directory which I pushed the docker images to my quay.io account.
 ```
 $ git clone https://github.com/veerendra2/python-flask-mongodb-app.git
 $ cd python-flask-mongodb-app/k8s-ready-spec-files
@@ -18,7 +18,7 @@ $ kubectl create -f k8s_mongodb_secrets.yml
 $ kubectl create -f k8s_http_service.yml
 $ kubectl create -f k8s_mongoDB.yml
 ```
-Or you can build your own by running `run.py`(More info in [tests](https://github.com/veerendra2/python-flask-mongodb-app/tree/master/tests) directory)
+Or you can build and push to your registry on your own by running `run.py`(More info in [tests](https://github.com/veerendra2/python-flask-mongodb-app/tree/master/tests) directory)
 
 
 # Introduction
