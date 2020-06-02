@@ -30,9 +30,10 @@ class Database:
 
     def connect(self):
         try:
-            self.client = MongoClient()
+            self.client = MongoClient(self.connect_url)
             self.client = self.client[DATABASE_NAME]  # Selecting DB
             self.client = self.client[COLLECTION_NAME]  # Selecting Collection
+            print "Hello"
             return [True, "Success"]
         except errors.ServerSelectionTimeoutError:
             return [False, "Failed to Connect DB"]

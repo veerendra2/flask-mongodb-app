@@ -48,3 +48,6 @@ https://docs.mongodb.com/manual/tutorial/insert-documents/
 sudo docker run -it -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=sigma MONGO_INITDB_ROOT_PASSWORD=Phief3me -e mymongodb
 
 kubectl create secret docker-registry regcred --docker-server=https://quay.io --docker-username=veeru553 --docker-password=Qwerty@123 --docker-email=jemamo@tempcloud.info
+
+Github Docker Registry Image Format
+docker.pkg.github.com/OWNER/REPOSITORY/IMAGE_NAME:VERSION

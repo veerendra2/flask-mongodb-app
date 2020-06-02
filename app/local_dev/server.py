@@ -163,6 +163,13 @@ def query_doc(query_dict):
 app = Flask(__name__)
 
 
+@app.route('/health', methods=['GET'])
+def health_check():
+    db = Database()
+    status = db.connect()
+    return json.dumps({"app": "ok", "db": status[1]})
+
+
 @app.route('/configs/<config>', methods=['PUT', 'GET', 'DELETE'])
 def config_vars(config):
     if request.method == 'GET' and config:

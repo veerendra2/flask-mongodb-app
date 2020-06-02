@@ -1,0 +1,31 @@
+version: "3.7"
+
+services:
+  nginx_frontend:
+    build: ./app
+    container_name: flask-app
+    ports:
+      - "80:80"
+    depends_on:
+      - "mongo_db"
+    networks:
+      - back-tier
+
+  mongo_db:
+    build: ./db
+    container_name: mongodb_log
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: "Phief3me"
+      MONGO_INITDB_ROOT_PASSWORD: "sigma"
+      MONGODB_SERVICE_SERVICE_HOST: "mongo-db"
+      MONGODB_SERVICE_SERVICE_PORT: "27017"
+    volumes:
+      - "db-data:/data"
+    networks:
+      - back-tier
+
+volumes:
+  db-data:
+
+networks:
+  back-tier:
