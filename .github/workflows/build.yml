@@ -1,0 +1,35 @@
+name: Docker Image CI
+on: [push]
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+    env:
+      APP_IMAGE_NAME: docker.pkg.github.com/${{ github.repository }}/flask-app
+      DB_IMAGE_NAME: docker.pkg.github.com/${{ github.repository }}/mongo-db
+
+    steps:
+    - uses: actions/checkout@v1
+
+#    - name: Create variables
+#      shell: bash
+#      run: |
+#        echo "::set-env name=SHORT_REV::$(echo ${{ github.sha }} | cut -c1-8)"
+
+    - name: Login to registry
+      run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u ${{ github.actor }} --password-stdin
+
+    - name: Build the App Docker image
+      run: docker build -t ${APP_IMAGE_NAME}:latest .
+      working-directory: ./python-flask-mongodb-app/db
+
+    - name: Build the DB Docker image
+      run: docker build -t ${DB_IMAGE_NAME}:latest .
+      working-directory: ./python-flask-mongodb-app/app
+
+    - name: App Image Push
+      run: docker push ${APP_IMAGE_NAME}:latest
+
+    - name: DB Image Push
+      run: docker push ${DB_IMAGE_NAME}:latest
