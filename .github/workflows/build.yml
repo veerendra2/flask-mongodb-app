@@ -5,9 +5,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    env:
-      APP_IMAGE_NAME: docker.pkg.github.com/${{ github.repository }}/flask-app
-      DB_IMAGE_NAME: docker.pkg.github.com/${{ github.repository }}/mongo-db
+#    env:
+#      APP_IMAGE_NAME: docker.pkg.github.com/${{ github.repository }}/flask-app
+#      DB_IMAGE_NAME: docker.pkg.github.com/${{ github.repository }}/mongo-db
 
     steps:
     - uses: actions/checkout@v1
@@ -21,15 +21,15 @@ jobs:
       run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u ${{ github.actor }} --password-stdin
 
     - name: Build the App Docker image
-      run: docker build -t ${APP_IMAGE_NAME}:latest .
-      working-directory: ./python-flask-mongodb-app/db
-
-    - name: Build the DB Docker image
-      run: docker build -t ${DB_IMAGE_NAME}:latest .
+      run: docker build -t docker.pkg.github.com/veerendra2/python-flask-mongodb-app/flask-app:latest .
       working-directory: ./python-flask-mongodb-app/app
 
+    - name: Build the DB Docker image
+      run: docker build -t docker.pkg.github.com/veerendra2/python-flask-mongodb-app/mongo-db:latest .
+      working-directory: ./python-flask-mongodb-app/db
+
     - name: App Image Push
-      run: docker push ${APP_IMAGE_NAME}:latest
+      run: docker push docker.pkg.github.com/veerendra2/python-flask-mongodb-app/flask-app:latest
 
     - name: DB Image Push
-      run: docker push ${DB_IMAGE_NAME}:latest
+      run: docker build -t docker.pkg.github.com/veerendra2/python-flask-mongodb-app/mongo-db:latest
