@@ -21,9 +21,8 @@ jobs:
       run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u ${{ github.actor }} --password-stdin
 
     - name: Build the App Docker image
-      run: |
-        pwd
-        docker build -t docker.pkg.github.com/veerendra2/python-flask-mongodb-app/flask-app:latest .
+      run: ls
+        #docker build -t docker.pkg.github.com/veerendra2/python-flask-mongodb-app/flask-app:latest .
       working-directory: ./python-flask-mongodb-app/app
 
     - name: Build the DB Docker image
