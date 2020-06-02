@@ -2,6 +2,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/veerendra2/python-flask-mongodb-app.svg)](https://github.com/veerendra2/python-flask-mongodb-app/network)
 [![GitHub stars](https://img.shields.io/github/stars/veerendra2/python-flask-mongodb-app.svg)](https://github.com/veerendra2/python-flask-mongodb-app/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://github.com/veerendra2/python-flask-mongodb-app/master/LICENSE)
+![Docker Image CI](https://github.com/veerendra2/python-flask-mongodb-app/workflows/Docker%20Image%20CI/badge.svg)
 # Python-Flask-MongoDB Application
 _*This project(with documentation) was created back in a while in 10 days for an assignment. Right now I'm not maintaining this project anymore._ :pray: 
 
@@ -9,17 +10,26 @@ _Heads-up before you use/look into the code_:warning:
 * _I didn't know anything about MonogoDB or Flask framework at time I started the project._
 * _I'm not a web devloper._
 
-### Delopy on Kubernetes
-You can use ready made K8s spec file in [k8s-ready-spec-files](https://github.com/veerendra2/python-flask-mongodb-app/tree/master/k8s-ready-spec-files) directory which I pushed the docker images to my quay.io account.
+### Deploy on Kubernetes
+* Install [minikube](https://kubernetes.io/docs/setup/learning-environment/minikube/)
 ```
 $ git clone https://github.com/veerendra2/python-flask-mongodb-app.git
-$ cd python-flask-mongodb-app/k8s-ready-spec-files
-$ kubectl create -f k8s_mongodb_secrets.yml
-$ kubectl create -f k8s_http_service.yml
-$ kubectl create -f k8s_mongoDB.yml
+$ cd python-flask-mongodb-app/
+$ kubectl create -f kubernetes_deployment.yml
 ```
-Or you can build and push to your registry on your own by running `run.py`(More info in [tests](https://github.com/veerendra2/python-flask-mongodb-app/tree/master/tests) directory)
+### Docker Compose
+```
+$ git clone https://github.com/veerendra2/python-flask-mongodb-app.git
+$ cd python-flask-mongodb-app/
+$ docker-compose up -d
+```
 
+### Vagrant
+```
+$ git clone https://github.com/veerendra2/python-flask-mongodb-app.git
+$ cd python-flask-mongodb-app/
+$ vagrant up
+```
 
 # Introduction
 A simple application that stores and retrieve json data via HTTP API. The endpoints list given below
